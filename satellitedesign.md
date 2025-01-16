@@ -4,7 +4,7 @@
 ## halo = lowsat
 ## vindler = rfsat
 
-#Goals
+# Goals
 
 ## Each satellite is a complete, independent module
 ## Clear separation of concerns
