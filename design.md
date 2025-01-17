@@ -4,20 +4,18 @@ The project will simulate a Mission Planning & Control System, focusing on satel
 
 # Technology Stack
 
-Backend Framework: FastAPI (Python)
-
-Containerization: Docker
-
-Orchestration: Kubernetes with Helm charts
-
-Cloud Provider: AWS, with services like Lambda for serverless functions
-
-Data Streaming: Kafka
-
-Time-Series Database: InfluxDB
-
-Visualization: Grafana
-
+|Category               |	Tool
+|-----------------------|--------------------
+|Programming Language	|   Python (primary)
+|Web Framework	        |   FastAPI
+|Containerization	    |   Docker
+|Orchestration	        |   Kubernetes + Helm
+|Data Streaming	        |   Kafka
+|Telemetry Storage	    |   InfluxDB (time-series data)
+|Visualization	        |   Grafana
+|Cloud Services	        |   AWS (S3, Lambda, EKS, DynamoDB) or equivalent (GCP/Azure)
+|CI/CD	                |   GitHub Actions, GitLab CI/CD, or CircleCI
+|Front End              |   React, next.js?
 
 # Step-by-Step Development Plan
 

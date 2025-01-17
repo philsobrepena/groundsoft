@@ -1,0 +1,15 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+  satellite:
+    build:
+      context: ./satellites/envsat1
+      dockerfile: Dockerfile
+    environment:
+      - SERVER_URL=http://backend:8000/telemetry
+    depends_on:
+      - backend
